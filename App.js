@@ -1,8 +1,12 @@
-import React from 'react';
 
-function Saludo(props) {
-    return <h1>¡Hola, {props.nombre}!</h1>;
-  }
-  
-  export default Saludo;
-  
+import React, { useState } from 'react';
+import Contador from './Contador';
+
+function App()
+{
+    return(
+        <Contador/>
+    )
+}
+
+export default App;
